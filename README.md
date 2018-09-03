@@ -1,17 +1,17 @@
-## Ticketchain - A Blockchain ticketing website and miner
+## Ticketchain - A blockchain ticketing website and miner
 
 [![Build Status](https://travis-ci.org/bilfar/blockchain-backend-ruby.svg?branch=master)](https://travis-ci.org/bilfar/blockchain-backend-ruby)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f89421f12fd5fbc684ac/maintainability)](https://codeclimate.com/github/bilfar/blockchain-backend-ruby/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f89421f12fd5fbc684ac/test_coverage)](https://codeclimate.com/github/bilfar/blockchain-backend-ruby/test_coverage)
 
-**☞ This README has been updated post-fork to reflect my personal goals and outcomes from the Ticketchain project.**
+**☞ This README has been updated post-fork to reflect my personal analysis of the Ticketchain project.**
 
 A blockchain-based ticketing app which allows users to purchase concert tickets and stores the validated transactions on a blockchain. Created as a final group project during the Makers Academy bootcamp in August 2018.
 
 This repository contains both the back-end 'blockchain' model and a front-end 'block miner' which can be accessed via a web browser. A second repository covering the ticket purchasing website that sends data to our blockchain [can be found here](https://github.com/archmagos/ticketchain-front-end).
 
 ### How it works
-[**Watch our Ticketchain demonstration video here**](https://vimeo.com/287794015)
+[**Watch our Ticketchain demonstration video here**](https://vimeo.com/287794015) (turn on Closed-Captions)
 
 Bob signs up to a ticket purchasing website, which generates a unique 'wallet' address for him. Bob is able to browse a list of concerts taking place in the near future and make a ticket purchase. Once a purchase is made, the transaction between Bob ('sender') and ticket website ('receiver') is recorded as an unverified transaction on the blockchain. Bob is provided a link to a front-end representation of the blockchain (the 'block miner'), and is able to confirm that his transaction has been successfully recorded.
 
