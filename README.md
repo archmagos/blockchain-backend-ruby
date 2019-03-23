@@ -4,8 +4,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/f89421f12fd5fbc684ac/maintainability)](https://codeclimate.com/github/bilfar/blockchain-backend-ruby/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f89421f12fd5fbc684ac/test_coverage)](https://codeclimate.com/github/bilfar/blockchain-backend-ruby/test_coverage)
 
-**☞ This README has been updated post-fork to reflect my personal analysis of the Ticketchain project.**
-
 A blockchain-based ticketing app which allows users to purchase concert tickets and stores the validated transactions on a blockchain. Created as a final group project during the Makers Academy bootcamp in August 2018.
 
 This repository contains both the back-end 'blockchain' model and a front-end 'block miner' which can be accessed via a web browser. A second repository covering the ticket purchasing website that sends data to our blockchain [can be found here](https://github.com/archmagos/ticketchain-front-end).
@@ -69,5 +67,5 @@ I want to be able to verify transactions and earn cryptocurrency.
 | Block miner (front-end) | Ruby, Sinatra | Capybara |
 | Ticket purchasing (front-end) | Javascript, React | Jest, Enzyme |
 
-## Authors/Credits
-[Ben](https://github.com/Ben-893) / [Daniel](https://github.com/dct-lau17) / [Fred](https://github.com/archmagos) / [Jeff](https://github.com/jeff1108) / [Nabil](https://github.com/bilfar)
+## Authors
+[Contributors to this project](https://github.com/archmagos/ticketchain/graphs/contributors)
