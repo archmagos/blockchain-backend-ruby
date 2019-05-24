@@ -1,15 +1,15 @@
 ## Ticketchain - A blockchain ticketing website and miner
 
-[![Build Status](https://travis-ci.org/bilfar/blockchain-backend-ruby.svg?branch=master)](https://travis-ci.org/bilfar/blockchain-backend-ruby)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f89421f12fd5fbc684ac/maintainability)](https://codeclimate.com/github/bilfar/blockchain-backend-ruby/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/f89421f12fd5fbc684ac/test_coverage)](https://codeclimate.com/github/bilfar/blockchain-backend-ruby/test_coverage)
+[![Build Status](https://travis-ci.org/archmagos/ticketchain.svg?branch=master)](https://travis-ci.org/archmagos/ticketchain)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c596b87dadb115a0aca5/maintainability)](https://codeclimate.com/github/archmagos/ticketchain/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/c596b87dadb115a0aca5/test_coverage)](https://codeclimate.com/github/archmagos/ticketchain/test_coverage)
 
 A blockchain-based ticketing app which allows users to purchase concert tickets and stores the validated transactions on a blockchain. Created as a final group project during the Makers Academy bootcamp in August 2018.
 
-This repository contains both the back-end 'blockchain' model and a front-end 'block miner' which can be accessed via a web browser. A second repository covering the ticket purchasing website that sends data to our blockchain [can be found here](https://github.com/archmagos/ticketchain-front-end).
+This repository contains both the back-end 'blockchain' model and a front-end 'block miner' which can be accessed via a web browser. A second repository covering the ticket purchasing website that sends data to the blockchain [can be found here](https://github.com/archmagos/ticketchain-front-end).
 
 ### How it works
-[**Watch our Ticketchain demonstration video here**](https://vimeo.com/287794015) (turn on Closed-Captions)
+[**Watch the Ticketchain demonstration video here**](https://vimeo.com/287794015) (turn on Closed-Captions)
 
 Bob signs up to a ticket purchasing website, which generates a unique 'wallet' address for him. Bob is able to browse a list of concerts taking place in the near future and make a ticket purchase. Once a purchase is made, the transaction between Bob ('sender') and ticket website ('receiver') is recorded as an unverified transaction on the blockchain. Bob is provided a link to a front-end representation of the blockchain (the 'block miner'), and is able to confirm that his transaction has been successfully recorded.
 
@@ -17,7 +17,7 @@ Alice visits the block miner and sees there are new transactions that have not y
 
 ## How to run
 
-To deploy locally, our back-end server needs to be run in conjunction with the web front-end. Please download or clone both this repository [and the front-end](https://github.com/archmagos/ticketchain-front-end) (following the instructions in that repository to get the front-end running). 
+To deploy locally, the back-end server needs to be run in conjunction with the web front-end. Please download or clone both this repository [and the front-end](https://github.com/archmagos/ticketchain-front-end) (following the instructions in that repository to get the front-end running).
 
 The following commands will install project dependencies and host the block miner on ``http://localhost:9292``. Transactions that are made on the front-end will subsequently appear as unverified-transactions within the miner.
 
@@ -36,7 +36,7 @@ The following commands will install project dependencies and host the block mine
 ### Initial Aims
 Our primary goal was to learn how blockchain technology works, and we aimed to do this by building a validation web-app written in Solidity to be deployed on the Ethereum network. However we quickly realised how ambitious this goal was, given our two week timeframe and the fact that we had much less understanding of blockchain than we first thought.
 
-We consequently decided to pivot and concentrate instead on building our own blockchain from the ground up, so that we could get a firm grasp on how the technology works. At this point, our project split into two paths: a front-end ticket purchasing website that would feed information to our blockchain, and a back-end blockchain model that itself would have a front-end 'miner' to provide a degree of user interaction.
+We consequently decided to pivot and concentrate instead on building our own blockchain from the ground up, so that we could get a firm grasp on how the technology works. At this point, the project split into two paths: a front-end ticket purchasing website that would feed information to the blockchain, and a back-end blockchain model that itself would have a front-end 'miner' to provide a degree of user interaction.
 
 ### Outcomes
 Broadly speaking we found ourselves working in two groups across the project, with those interested in learning React working on the ticketing front-end and those interested in the blockchain itself working on the back-end/miner. This approach gave everyone the opportunity to work in areas that interested them (although there was inevitably some crossover).

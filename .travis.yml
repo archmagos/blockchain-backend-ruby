@@ -1,10 +1,11 @@
 env:
   global:
-    - CC_TEST_REPORTER_ID=6a5176bbf0c29ceff7d482d1cd407c314871bafe7aceec12f3790e54feb97feb
+    - CC_TEST_REPORTER_ID=d6ff5a63283d170c6a2c59b3da01904c91075c645f3d555247f63c1d36a233cf
 language: ruby
 rvm:
   - 2.5.0
 before_install:
+  - gem update --system
   - gem install bundler
 notifications:
   - false
